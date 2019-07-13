@@ -1,0 +1,88 @@
+.navbar {
+    min-height: 50px !important;
+}
+
+.navbar-brand {
+    padding: 5px 10px !important;
+}
+.navbar-default {
+    background-color: #ffffff;
+    background-image: none !important;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 -2px 2px 0 rgba(0, 0, 0, 0.19) !important;
+    border-color: #777777 !important;
+    border:none;
+}
+.nav-pills {
+    margin-top: 5px !important;
+}
+.nav-pills li a {
+    color: #848d95;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px !important;
+}
+.nav-pills li a.btn, .nav-pills li a.btn-primary{
+    color:#000;
+    border:none;
+    border-top: 4px solid #025595;
+    background: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    box-shadow: none;
+    text-shadow: none;
+    padding-top: 6px;
+}
+
+/*.nav-pills li a:hover {
+    border-top: 4px solid #025595;
+    border-bottom: 4px solid #025595;
+    border-right: 1px solid #025595;
+    border-left: 1px solid #025595;
+    border-top-left-radius: 5;
+    border-top-right-radius: 5;
+    border-bottom-left-radius: 5;
+    border-bottom-right-radius: 5;
+    color:#000;
+    padding-top: 6px;
+    background: none;
+}
+.nav-pills li a.btn:hover, .nav-pills li a.btn-primary:hover {
+    background: #fff;
+    border:none;
+    border-top: 4px solid #025595;
+    background: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    box-shadow: none;
+    text-shadow: none;
+}*/
+.thumbnail-logo{
+    width: 25px;
+    border-radius: 15px;
+}
+.thumbnail-column {
+    color: #025595;
+    padding: 10px;
+    font-size: 18px !important;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+.center-align-logo-text {
+    display: flex;
+    align-items: center;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #025595;
+    border-color: #025595;
+}
+
+.btn, .btn-primary {
+    background-image: linear-gradient(to bottom,#025595,0,#025595 100%);
+    font-size: 12px !important;
+}
+
+.menu-bar-separator {
+    border-bottom: 1px solid #777777;
+    padding-bottom: 5px;
+}

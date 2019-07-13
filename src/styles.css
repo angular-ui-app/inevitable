@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+h5 {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+body {
+    font-size: 10px !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
