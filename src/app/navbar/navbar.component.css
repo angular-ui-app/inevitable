@@ -6,7 +6,7 @@
     padding: 5px 10px !important;
 }
 .navbar-default {
-    background-color: #ffffff;
+    background-color: #999999;
     background-image: none !important;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 -2px 2px 0 rgba(0, 0, 0, 0.19) !important;
     border-color: #777777 !important;
@@ -16,14 +16,14 @@
     margin-top: 5px !important;
 }
 .nav-pills li a {
-    color: #848d95;
+    color: #000000;
     font-family: 'Poppins', sans-serif;
     font-size: 14px !important;
 }
 .nav-pills li a.btn, .nav-pills li a.btn-primary{
-    color:#000;
+    color:#fff;
     border:none;
-    border-top: 4px solid #025595;
+    border-top: 4px solid #000000;
     background: none;
     border-top-left-radius: 0;
     border-top-right-radius: 0;

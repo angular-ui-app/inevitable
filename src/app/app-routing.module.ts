@@ -8,6 +8,7 @@ import { AboutMeComponent } from './about-me/about-me.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/', pathMatch: 'full' },
+  { path: '', component: HomeComponent },
   { path: 'home', component: HomeComponent, 
       children: [
         { path: '', component: DashboardComponent },
